@@ -23,8 +23,8 @@ public class TrianguloTest extends TestCase {
     }
 
     public void testCalculeArea() {
-        Triangulo triangulo = new Triangulo(10,10,19);
+        Triangulo triangulo = new Triangulo(10,10,15);
         
-        assertEquals(16, (int)triangulo.calculeArea());
+        assertEquals(40, (int)triangulo.calculeArea());
     }
 }

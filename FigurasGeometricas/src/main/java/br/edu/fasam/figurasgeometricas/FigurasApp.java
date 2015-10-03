@@ -26,5 +26,11 @@ public class FigurasApp {
         System.out.println("Calculo da área do circulo: " + circulo.calculaArea());
         System.out.println("Calculo do perímetro: " + circulo.calculaPerimentro());
         
+        Triangulo triangulo = new Triangulo(10, 10, 15);
+        System.out.printf("Triangulo - Lado A: %d Lado B: %d Lado C: %d \n",
+        triangulo.getLadoA(), triangulo.getLadoB(),triangulo.getLadoC());        
+        System.out.printf("Area = %d\n", triangulo.calculeArea());
+        System.out.printf("Perimetro = %d\n", triangulo.calculePerimetro());
+        
     }
 }
