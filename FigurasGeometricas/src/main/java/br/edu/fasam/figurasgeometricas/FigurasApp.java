@@ -11,9 +11,15 @@ package br.edu.fasam.figurasgeometricas;
  */
 public class FigurasApp {
     public static void main(String[] args) {
-        System.out.println("Olá Mundo!");
+        
         Quadrado quadrado = new Quadrado(25);
         System.out.println("Área do quadrado: " + quadrado.calcularArea());
         System.out.println("Perímetro do quadrado: " + quadrado.calcularPerimetro());
+   
+        Retangulo retangulo = new Retangulo(5, 15);
+        System.out.printf("Retangulo - Base %.2f Altura %.2f\n", retangulo.getBase(), retangulo.getAltura());        
+        System.out.printf("Area = %.2f\n", retangulo.getArea());
+        System.out.printf("Perimetro = %.2f\n", retangulo.getPerimetro());
+        System.out.printf("Diagonal  = %.2f\n ", retangulo.getDiagonal());
     }
 }

@@ -10,25 +10,7 @@ package br.edu.fasam.figurasgeometricas;
  * @author sidine
  */
 public class Quadrado {
-    
-    private Integer area;
-    private Integer perimetro;
-    
     private Integer lado;
-
-    /**
-     * @return the area
-     */
-    public Integer getArea() {
-        return area;
-    }
-
-    /**
-     * @return the perimetro
-     */
-    public Integer getPerimetro() {
-        return perimetro;
-    }
 
     /**
      * @return the lado
