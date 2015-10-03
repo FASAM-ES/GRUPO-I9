@@ -15,6 +15,13 @@ public class Triangulo {
     private Integer ladoB;
     private Integer ladoC;        
 
+    public Triangulo (Integer lA, Integer lB,Integer lC)
+    {
+        ladoA = lA;
+        ladoB = lB;
+        ladoC = lC;
+    }
+    
     public Integer getLadoA() {
         return ladoA;
     }
@@ -47,9 +54,10 @@ public class Triangulo {
      public Integer calculeArea()
     {      
         //p = (a +  b + c) /2
-        //A = √p.(p-a).(p-b).(p-c)
+        //A = âˆšp.(p-a).(p-b).(p-c)
         double semiperimetro = calculePerimetro() / 2;
-        return  (int) (Math.sqrt(semiperimetro) * (semiperimetro - ladoA ) * 
-                (semiperimetro - ladoB ) * (semiperimetro - ladoC ));
+        Double area =  (Math.sqrt(semiperimetro * (semiperimetro - ladoA ) * 
+                (semiperimetro - ladoB ) * (semiperimetro - ladoC )));
+        return  area.intValue();
     }
 }
