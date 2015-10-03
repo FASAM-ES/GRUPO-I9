@@ -11,6 +11,14 @@ package br.edu.fasam.figurasgeometricas;
  */
 public class Quadrado {
     private Integer lado;
+    
+    public Quadrado()
+    {
+    }
+    
+    public Quadrado(Integer pLado){
+        lado = pLado;
+    }    
 
     /**
      * @return the lado
@@ -34,13 +42,5 @@ public class Quadrado {
     public Integer calcularPerimetro()
     {
         return lado * 4;
-    }
-    
-    public Quadrado()
-    {
-    }
-    
-    public Quadrado(Integer pLado){
-        lado = pLado;
     }
 }
