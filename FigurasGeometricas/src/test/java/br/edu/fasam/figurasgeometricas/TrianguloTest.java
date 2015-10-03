@@ -26,11 +26,17 @@ public class TrianguloTest extends TestCase {
         Triangulo triangulo = new Triangulo(10,10,15);
         
         assertEquals(40, (int)triangulo.calculeArea());
+        assertEquals(10, (int)triangulo.getLadoA());
+        assertEquals(10, (int)triangulo.getLadoB());
+        assertEquals(15, (int)triangulo.getLadoC());
     }
     
      public void testCalculePerimetro() {
         Triangulo triangulo = new Triangulo(10,10,15);
         
         assertEquals(35, (int)triangulo.calculePerimetro());
+        assertEquals(10, (int)triangulo.getLadoA());
+        assertEquals(10, (int)triangulo.getLadoB());
+        assertEquals(15, (int)triangulo.getLadoC());
     }
 }
