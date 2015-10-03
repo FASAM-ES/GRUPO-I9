@@ -18,8 +18,13 @@ public class FigurasApp {
    
         Retangulo retangulo = new Retangulo(5, 15);
         System.out.printf("Retangulo - Base %.2f Altura %.2f\n", retangulo.getBase(), retangulo.getAltura());        
-        System.out.printf("Area = %d\n", retangulo.getArea());
-        System.out.printf("Perimetro = %d\n", retangulo.getPerimetro());
-        System.out.printf("Diagonal  = %d\n ", retangulo.getDiagonal());
+        System.out.printf("Area = %.2f\n", retangulo.getArea());
+        System.out.printf("Perimetro = %.2f\n", retangulo.getPerimetro());
+        System.out.printf("Diagonal  = %.2f\n ", retangulo.getDiagonal());
+        
+        Circulo circulo = new Circulo(2.0);
+        System.out.println("Calculo da área do circulo: " + circulo.calculaArea());
+        System.out.println("Calculo do perímetro: " + circulo.calculaPerimentro());
+        
     }
 }
