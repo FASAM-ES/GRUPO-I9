@@ -12,5 +12,8 @@ package br.edu.fasam.figurasgeometricas;
 public class FigurasApp {
     public static void main(String[] args) {
         System.out.println("Olá Mundo!");
+        Quadrado quadrado = new Quadrado(25);
+        System.out.println("Área do quadrado: " + quadrado.calcularArea());
+        System.out.println("Perímetro do quadrado: " + quadrado.calcularPerimetro());
     }
 }
