@@ -1,4 +1,4 @@
-package br.edu.fasam.test;
+package br.edu.fasam.figurasgeometricas;
 
 import br.edu.fasam.figurasgeometricas.Circulo;
 import junit.framework.TestCase;
