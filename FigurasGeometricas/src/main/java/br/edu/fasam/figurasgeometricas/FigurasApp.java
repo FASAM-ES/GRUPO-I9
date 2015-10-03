@@ -10,6 +10,7 @@ package br.edu.fasam.figurasgeometricas;
  * @author Renner
  */
 public class FigurasApp {
+
     public static void main(String[] args) {
         System.out.println("Olá Mundo!");
     }
