@@ -36,6 +36,10 @@ public class Quadrado {
         return lado * 4;
     }
     
+    public Quadrado()
+    {
+    }
+    
     public Quadrado(Integer pLado){
         lado = pLado;
     }
