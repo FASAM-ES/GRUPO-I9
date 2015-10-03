@@ -31,15 +31,15 @@ public class Retangulo {
         this.altura = altura;
     }
 
-    public double getPerimetro() {
-        return 2 * (altura + base);
+    public int getPerimetro() {
+        return (int)(2 * (altura + base));
     }
 
-    public double getArea() {
-        return altura * base;
+    public int getArea() {
+        return (int)(altura * base);
     }
 
-    public double getDiagonal() {
-        return Math.sqrt(Math.pow(altura,2) + Math.pow(base,2));
+    public int getDiagonal() {
+        return (int)(Math.sqrt(Math.pow(altura,2) + Math.pow(base,2)));
     }
 }
