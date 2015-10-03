@@ -36,5 +36,6 @@ public class QuadradoTest extends TestCase {
         Quadrado quadrado = new Quadrado(12);
         Assert.assertEquals(144, (int)quadrado.calcularArea());
         Assert.assertEquals(48, (int)quadrado.calcularPerimetro());
+        Assert.assertEquals(12, (int)quadrado.getLado());
     }
 }
