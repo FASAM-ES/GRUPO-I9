@@ -1,16 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package br.edu.fasam.figurasgeometricas;
 
-/**
- *
- * @author Renner
- */
 public class FigurasApp {
+
     public static void main(String[] args) {
-        System.out.println("Olá Mundo!");
+        for (int index = 0; index < 10; index++) {
+            System.out.println("Olá Mundo!");
+        }
     }
 }
