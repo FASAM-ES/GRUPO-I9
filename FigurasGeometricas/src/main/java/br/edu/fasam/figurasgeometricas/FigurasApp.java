@@ -10,7 +10,7 @@ package br.edu.fasam.figurasgeometricas;
  * @author Renner
  */
 public class FigurasApp {    
-    public FigurasApp()
+    private FigurasApp()
     {
     }
     
