@@ -9,7 +9,11 @@ package br.edu.fasam.figurasgeometricas;
  *
  * @author Renner
  */
-public class FigurasApp {
+public class FigurasApp {    
+    public FigurasApp()
+    {
+    }
+    
     public static void main(String[] args) {
         
         Quadrado quadrado = new Quadrado(25);
