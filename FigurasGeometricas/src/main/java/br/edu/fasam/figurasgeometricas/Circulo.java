@@ -12,7 +12,7 @@ package br.edu.fasam.figurasgeometricas;
 public class Circulo {
     
     private Double raio;
-    private final Double pi = 3.14;
+    private static final Double pi = 3.14;
     
     public Circulo(Double raio){
         this.raio = raio;
